@@ -2,5 +2,38 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid;
+  border: 1px solid #333;
+}
+
+/* This is a hack to add spaces for gridlex
+to view our border lets delete when done */
+[class*=col-] {
+  padding: 5%;
+}
+
+/* header */
+header {
+
+}
+
+/* Benefits */
+.benefits {
+
+}
+
+/* Banner Ad */
+.banner-ad {
+  background-image: url('../images/pencil.jpg');
+  background-size: cover;
+  min-height: 40vh;
+}
+
+/* Quote */
+.quote {
+
+}
+
+/* footer */
+footer {
+
 }
